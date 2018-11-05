@@ -1,0 +1,3 @@
+student name : Kimberly van Gelder 
+student number : 565459
+student class : inf1C
