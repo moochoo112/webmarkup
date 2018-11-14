@@ -1,0 +1,424 @@
+@media screen and (max-width: 500px)
+{
+
+}
+body
+{
+	background-image: url(background.jpeg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif
+
+}
+.header {
+    background-image: url(companylogoBG.jpg);
+	background-position:50% 50%;
+	background-size: cover;
+    padding: 20px;
+	text-align: center;
+	max-width: 600px;
+	max-height: 100px;
+    margin: auto;
+}
+h1
+{
+	position:relative;
+	margin:auto;
+	color: #FFFFFF;
+	font-size: 2.8em;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+h2
+{
+	color: #FFFFFF;
+	font: bold;
+	font-size: 3.2em;
+	margin-top:-5px;
+}
+.navbar
+{
+	overflow: hidden;
+	background-color: #808080;
+	background-size: cover;
+	max-width: 600px;
+    margin: auto;
+	text-align: center;
+	padding-top: 5px;
+	padding-left:20px;
+	padding-right: 20px;
+	padding-bottom:5px;	
+}
+.navbar a 
+{
+  float: initial;
+  font-size: 1em;
+  color: #FFFFFF;
+  display:inline;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+.box
+{
+	background-color: #2699FB;
+	background-size: cover;
+    padding: 20px;
+	text-align: center;
+	max-width: 600px;
+	max-height: 100px;
+    margin: auto;
+}
+.box1
+{
+	background-color: #2699FB;
+	background-size: cover;
+    padding: 20px;
+	text-align: center;
+	max-width: 600px;
+	max-height: 50px;
+    margin: auto;
+}
+
+
+.center
+{
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+.footer
+{
+	max-width:640px;
+	margin: auto;
+	background-color: #000000;
+	text-align: center;
+	display: block;
+	padding-top:10px;
+	padding-bottom:10px;
+
+
+}
+p
+{
+	color: #FFFFFF;
+	font: bold;
+	font-size: 1em;
+	margin-bottom: -5px;
+}
+form
+{
+	background-color:#FFFAFA;
+	max-width:600px;
+	margin:auto;
+	padding-right:20px;
+	padding-left:20px;
+}
+
+fieldset
+{
+	border:none;
+}
+input[type="text"]
+{
+	max-width:100%;
+	width:100%;
+    margin: auto;
+	
+}
+input[type="email"]
+{
+	max-width:100%;
+	width:100%;
+    margin: auto;
+}
+input[type="submit"]
+{
+	width:95%;
+	max-width:100%;
+	padding: 10px;
+	background-color:#2699FB;
+	color: #FFFFFF;
+	font: bold;
+	font-size: 1em;
+	margin-left:15px;
+	margin-bottom:20px;
+}
+
+textarea
+{
+	max-width:100%;
+	width:100%;
+	margin: auto;	
+}
+label
+{
+	color: #AAAAAA;
+}
+.rectangle
+{
+	background-color:#FFFFFF;
+	display: block;
+	max-width: 600px;
+	height: auto;
+    margin: auto;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-bottom:10px;
+	padding-top: 10px;
+}
+
+#foto1
+{ 
+	background-image: url(product1.jpg);
+	position: relative;
+	margin-left: 3%;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	object-fit:cover;
+	padding: 3px;
+}
+#foto2
+{ 
+	background-image: url(product2.jpg);
+	position: relative;
+	margin: auto;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	object-fit:cover;
+	padding: 3px;
+}
+#foto3
+{ 
+	background-image: url(product3.jpg);
+	position: relative;
+	margin: auto;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	object-fit:cover;
+	padding: 3px;
+}
+#foto4
+{ 
+	background-image: url(product4.jpg);
+	position: relative;
+	margin-left: 3%;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	object-fit:cover;
+	padding: 3px;
+}
+#foto5
+{ 
+	background-image: url(product5.jpg);
+	position: relative;
+	margin: auto;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	object-fit:cover;
+	padding: 3px;
+}
+#foto6
+{ 
+	background-image: url(product6.jpg);
+	position: relative;
+	margin: auto;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	object-fit:cover;
+	padding: 3px;
+}
+#foto7
+{ 
+	background-image: url(product7.jpg);
+	position: relative;
+	margin-left: 3%;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	object-fit:cover;
+	padding: 3px;
+}
+#foto8
+{ 
+	background-image: url(product8.jpg);
+	position: relative;
+	margin: auto;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	object-fit:cover;
+	padding: 3px;
+}
+#foto9
+{ 
+	background-image: url(product9.jpg);
+	position: relative;
+	margin: auto;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	object-fit:cover;
+	padding: 3px;
+}
+#foto10
+{ 
+	background-image: url(product10.jpg);
+	position: relative;
+	margin-left: 3%;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	object-fit:cover;
+	padding: 3px;
+}
+#foto11
+{ 
+	background-image: url(product11.jpg);
+	position: relative;
+	margin: auto;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	object-fit:cover;
+	padding: 3px;
+}
+#foto12
+{ 
+	background-image: url(product12.jpg);
+	position: relative;
+	margin: auto;
+	background-size: cover;
+	max-width:100%;
+	background-position:50% 50%;
+	height: 130px;
+	width: 180px;
+	object-fit:cover;
+	padding: 3px;
+}
+
+@media screen and (max-width: 500px) 
+{
+	
+	#foto1
+	{
+		display: block;
+		height: 200px;
+		width: 400px;
+		margin-left:0;
+	}
+	#foto2
+	{
+		display: block;
+		height: 200px;
+		width: 400px;
+	}
+	#foto3
+	{
+		display: block;
+		height: 200px;
+		width: 400px;
+	}
+	#foto4
+	{
+		display: block;
+		height: 200px;
+		width: 400px;
+		margin-left:0;
+	}
+	#foto5
+	{
+		display: block;
+		height: 200px;
+		width: 400px;
+	}
+	#foto6
+	{
+		display: block;
+		height: 200px;
+		width: 400px;
+	}
+	#foto7
+	{
+		display: block;
+		height: 200px;
+		width: 400px;
+		margin-left:0;
+	}
+	#foto8
+	{
+		display: block;
+		height: 200px;
+		width: 400px;
+	}
+	#foto9
+	{
+		display: block;
+		height: 200px;
+		width: 400px;
+	}
+	#foto10
+	{
+		display: block;
+		height: 200px;
+		width: 400px;
+		margin-left:0;
+	}
+	#foto11
+	{
+		display: block;
+		height: 200px;
+		width: 400px;
+	}
+	#foto12
+	{
+		display: block;
+		height: 200px;
+		width: 400px;
+	}
+	h2
+	{
+		font-size: 1.7em;
+		margin-top: 3%;
+	}
+	h1
+	{
+		font-size:1.5em;
+	}
+}
