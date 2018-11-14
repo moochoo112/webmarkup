@@ -1,73 +1,74 @@
-<! DOCTYPE html >
-<html lang = "nl" >
-<head>
-	<meta charset = "utf-8" >
-	<link rel = "stylesheet" type = "text/css"
-	href = "opmaak.css" >
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Index</title>
-</head>
+<!DOCTYPE html5>
+<html lang = "en" >
+	<head>
+		<meta charset = "utf-8" >
+		<meta name="author" content="Kimberly van Gelder">
+		<meta name="keywords" content="Company Name, Online, Games, Boardgames, Kimberly van Gelder">
+		<link rel = "stylesheet" type = "text/css" href = "opmaak.css" >
+		<link rel="shortcut icon" type="image/x-icon" href="favicon1.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Company Name</title>
+	</head>
 
-<body>
+	<body>
 
-	<header class="header">
-		<h1>COMPANY NAME</h1>
-	</header>
+		<header class="header">
+			<h1>COMPANY NAME</h1>
+		</header>
 
-	<nav class="navbar">
-		<a href="index.html">HOME</a>
-		<a href="product.html">PRODUCT</a>
-		<a href="http://www.blogger.com ">BLOG</a>
-	</nav>
+		<nav class="navbar">
+			<a href="index.html">HOME</a>
+			<a href="product.html">PRODUCT</a>
+			<a href="http://www.blogger.com ">BLOG</a>
+		</nav>
 
-	<figure class="box1">
-		<h2>CONTACT</h2>
-	</figure>
+		<figure class="box1">
+			<h2>CONTACT</h2>
+		</figure>
 
-<form action="nowhere.php" method="post">
-	<label>More information</label>
-	<fieldset class="contactFormFieldset">
+	<form action="nowhere.php" method="post">
+		<label>More information</label>
+		<fieldset class="contactFormFieldset">
+			<input
+					type="blank"
+					name="topic name"
+					placeholder="Select topic"				
+			/>
+			<select>
+				<option value="general">General inquiries</option>
+				<option value="press">Press relations</option>
+				<option value="recruitement">Recruitement</option>
+			</select>
+		</fieldset>
+		<fieldset class="contactFormFieldset">
+			<input
+					type="text"
+					name="contactFormName"
+					placeholder="Your name.."
+			/>
+		</fieldset>
+		<fieldset class="contactFormFieldset">
+			<input
+					type="email"
+					name="email"
+					placeholder="Your email.."
+			/>
+		</fieldset>
+		<fieldset>
+			<textarea
+					rows="7"
+					cols="40"
+					name="message"
+					placeholder="Write something.."
+			></textarea>
+		</fieldset>
 		<input
-				type="label"
-				name="topic name"
-				placeholder="Select topic"				
+				type="submit"
+				value="Submit"
 		/>
-		<select>
-			<option value="general">General inquiries</option>
-			<option value="press">Press relations</option>
-			<option value="recruitement">Recruitement</option>
-		</select>
-	</fieldset>
-	</fieldset>
-	<fieldset class="contactFormFieldset">
-		<input
-				type="text"
-				name="contactFormName"
-				placeholder="Your name.."
-		/>
-	</fieldset>
-	<fieldset class="contactFormFieldset">
-		<input
-				type="email"
-				name="email"
-				placeholder="Your email.."
-		/>
-	</fieldset>
-	<fieldset>
-		<textarea
-				rows="7"
-				cols="40"
-				name="message"
-				placeholder="Write something.."
-		></textarea>
-	</fieldset>
-	<input
-			type="submit"
-			value="Submit"
-	/>
-</form>
-	<footer class="footer">
-		<p>2018 - Kimberly van Gelder - Inholland </p>
-	</footer>
-</body>
+	</form>
+		<footer class="footer">
+			<p>2018 - Kimberly van Gelder - Inholland </p>
+		</footer>
+	</body>
 </html>
